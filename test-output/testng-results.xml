@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression1" duration-ms="146891" started-at="2018-03-14T13:40:20Z" finished-at="2018-03-14T13:42:47Z">
+    <groups>
+    </groups>
+    <test name="testname" duration-ms="146891" started-at="2018-03-14T13:40:20Z" finished-at="2018-03-14T13:42:47Z">
+      <class name="project1.testscripts.Test1">
+        <test-method status="PASS" signature="initSetup()[pri:0, instance:project1.testscripts.Test1@2f301b94]" name="initSetup" is-config="true" duration-ms="13945" started-at="2018-03-14T19:10:20Z" finished-at="2018-03-14T19:10:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method status="PASS" signature="verifyCreateProject()[pri:0, instance:project1.testscripts.Test1@2f301b94]" name="verifyCreateProject" duration-ms="85562" started-at="2018-03-14T19:10:34Z" finished-at="2018-03-14T19:11:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateProject -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:project1.testscripts.Test1@2f301b94]" name="tearDown" is-config="true" duration-ms="247" started-at="2018-03-14T19:11:59Z" finished-at="2018-03-14T19:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- project1.testscripts.Test1 -->
+      <class name="project1.testscripts.Test2">
+        <test-method status="PASS" signature="initSetup()[pri:0, instance:project1.testscripts.Test2@7f62a9bf]" name="initSetup" is-config="true" duration-ms="14327" started-at="2018-03-14T19:12:00Z" finished-at="2018-03-14T19:12:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method status="PASS" signature="verifyProjectSearchAndOpen()[pri:0, instance:project1.testscripts.Test2@7f62a9bf]" name="verifyProjectSearchAndOpen" duration-ms="30694" started-at="2018-03-14T19:12:14Z" finished-at="2018-03-14T19:12:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProjectSearchAndOpen -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:project1.testscripts.Test2@7f62a9bf]" name="tearDown" is-config="true" duration-ms="2084" started-at="2018-03-14T19:12:45Z" finished-at="2018-03-14T19:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- project1.testscripts.Test2 -->
+    </test> <!-- testname -->
+  </suite> <!-- Regression1 -->
+</testng-results>
